@@ -1,0 +1,115 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/garimajain/Documents/transcript-intelligence/scripts/run_enrich.py", line 240, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/Users/garimajain/Documents/transcript-intelligence/scripts/run_enrich.py", line 228, in main
+    alias_map = norm_mod.build_alias_map(all_customer_entities)
+  File "/Users/garimajain/Documents/transcript-intelligence/ti/enrich/customer_normalize.py", line 125, in build_alias_map
+    for c in out["clusters"]:
+             ~~~^^^^^^^^^^^^
+KeyError: 'clusters'
+Loaded 100 canonical transcripts; enriching 100.
+Loaded existing taxonomy: 6 themes.
+[  4/100] 01KQ0DFE299AC7A74E8022CA — Aegis / Redwood Clinical - ISO 27001 Preparation
+[  5/100] 01KQ0F8AFF3DA34FD4580008 — Aegis / Cobalt Software - Q2 Planning
+[  6/100] 01KQ1267C6AA7D9B3125FEC8 — SOC 2 Audit Preparation - Internal
+[  7/100] 01KQ1A6B7E81B06F4A13B60D — Support Case #6977 - Brightpath Commerce Slow Backup Perform
+[  8/100] 01KQ1DC6CA536DE1B31ED8F5 — Aegis / Atlas Precision - Contract Discussion
+[  9/100] 01KQ1DCC80852AE384C898C9 — Aegis / Quantum Edge - Renewal Concerns
+[ 10/100] 01KQ1DE954A807A5D2653175 — Comply v2 - Launch Readiness Review
+[ 11/100] 01KQ2217B066855A3B7814CB — Aegis / Meridian Capital - Service Reliability Discussion
+[ 12/100] 01KQ2331EFD78BF3B1CAB747 — Detect Outage - Customer Impact Assessment
+[ 13/100] 01KQ25D8AED944B5D2A9FF60 — Support Case #1514 - Meridian Capital Granular Restore Reque
+[ 14/100] 01KQ298F2846EFE59B0D70E2 — Competitive Threat Assessment - Post Outage
+[ 15/100] 01KQ2B4878EC7B3EE5547007 — Aegis / Stratos Cloud - Audit Preparation
+[ 16/100] 01KQ2D93184912F0147315E7 — URGENT: Blackridge Investments - Complete Loss of Threat Vis
+[ 17/100] 01KQ31ED026F745FE2A55CCD — Identity Team - Q2 Roadmap
+[ 18/100] 01KQ325BDEDEE927D2970775 — Support Case #5889 - Ridgeline Logistics Detect Latency Issu
+[ 19/100] 01KQ351E141926AB7CAB668D — Aegis / Northstar Pharma - Urgent: Detect Outage Impact
+[ 20/100] 01KQ38C4101D6774F2F02331 — INCIDENT: Detect Pipeline Failure - War Room
+[ 21/100] 01KQ38FE02AEE5AA5157F042 — Support Case #3296 - Pinnacle Insurance Comply v2 Report For
+[ 22/100] 01KQ3BD8DEEBC7FECD107F0F — Aegis / Blackridge Investments - HIPAA Compliance Review
+[ 23/100] 01KQ3C837D7EF689408DCF95 — Support Case #2638 - Pineridge Systems CloudPrime S3 Backup 
+[ 24/100] 01KQ3CE40428CCC5FF433FFC — Detect Outage - Post-Incident Review
+[ 25/100] 01KQ3D8C1EF16C042F31FAFD — Aegis / Trailhead Marketplace - Renewal Confirmation
+[ 26/100] 01KQ3F90FF9EBC3DB3632514 — Identity Team - Sprint Retro
+[ 27/100] 01KQ410FB7E434BA3F99EE7D — Aegis / Axiom Labs - Multi-Year Renewal
+[ 28/100] 01KQ41FB5CCFD9EA583FB020 — Aegis / Harborview Banking - Threat Detection Tuning
+[ 29/100] 01KQ445B1B5B890316C9E300 — Weekly Engineering Standup
+[ 30/100] 01KQ4529010F423FD9DB40BD — Win/Loss Analysis - Q1
+[ 31/100] 01KQ45C0AD36B351A3571940 — Aegis / Silverline Brands - Comply v2 Early Access Demo
+[ 32/100] 01KQ45C76AF3AEA6B3EA6697 — Aegis / Steelpoint Manufacturing - Contract Review
+[ 33/100] 01KQ45F6F7349D0A620571F1 — Aegis / Brightpath Commerce - Competitive Evaluation
+[ 34/100] 01KQ46A9DE0AECB006D897A0 — Detect Outage - Escalation Bridge
+[ 35/100] 01KQ4D01DCB15C69672AB5AF — Aegis / Clearwater Medical - Comply v2 Deployment Kickoff
+[ 36/100] 01KQ4D504CE09A8F6ECA1F5A — Product Sync - Identity Roadmap
+[ 37/100] 01KQ4D71CDFB1045A2458216 — Aegis / Bridgeport Health - Renewal Finalization
+[ 38/100] 01KQ4EE836687F95080D92AB — Detect Team - Sprint Planning
+[ 39/100] 01KQ51DC4345D9DAE005678C — Aegis / Redwood Clinical - Product Feedback Session
+[ 40/100] 01KQ54917E3931712516916D — Aegis / Nimbus Platform - Comply v2 Preview
+[ 41/100] 01KQ560FF1570C5E7F71D752 — Aegis / Coastal Living Co - Protect Module Expansion
+[ 42/100] 01KQ56786DD1E8A1BF174FDD — Support Case #1993 - Forge Industries Comply v2 Early Access
+[ 43/100] 01KQ56AA6B60801ABC01AB1C — Support Case #8179 - Clearwater Medical Overage Charges Disp
+[ 44/100] 01KQ56D878454E5783DC6D94 — Support Case #3536 - Stratos Cloud LogVault Integration Time
+[ 45/100] 01KQ5A966832A146DA4B7D41 — Aegis / Summit Trust - Platform Concerns Discussion
+[ 46/100] 01KQ5AFAE8264DDC0ED2AE7F — Aegis / Crestline Wealth - Identity Module Deployment
+[ 47/100] 01KQ5BB8521F99E55470206E — Detect Team - Sprint Planning
+[ 48/100] 01KQ5D47170D4828E89EDE37 — Support Case #7537 - Forge Industries Detect Recovery Confir
+[ 49/100] 01KQ5EC1665DCFD7A6B62A59 — Support Case #8749 - Coastal Living Co SAML Certificate Rota
+[ 50/100] 01KQ5F364545B542671FF9CE — Support Case #3546 - Meridian Capital SCIM Provisioning Requ
+[ 51/100] 01KQ65D43540846FA994B6C4 — Aegis / Frostbyte AI - Product Feedback
+[ 52/100] 01KQ68FB3E9E60C4477CDAB4 — Comply v2 - GA Deployment Plan
+[ 53/100] 01KQ6A5CEAAFFBE3B0099E75 — Support Case #6539 - Steelpoint Manufacturing LDAP Sync Fail
+[ 54/100] 01KQ6CAA850EAFDC48B52846 — Aegis / Ironworks Corp - Vendor Comparison Discussion
+[ 55/100] 01KQ764171AC27A3A94DC695 — Detect Reliability - 30-Day Review
+[ 56/100] 01KQ773D68723289E4A98889 — Support Case #7572 - Brightpath Commerce Invoice Discrepancy
+[ 57/100] 01KQ77F2867FC54E13A8C495 — Aegis / Brightpath Commerce - Detect Module Deployment
+[ 58/100] 01KQ7B802912366FC0A24D4F — All Hands - April Update
+[ 59/100] 01KQ7BF0D56037FF89DC89B6 — Support Case #3266 - Trailhead Marketplace Detect Alerts Not
+[ 60/100] 01KQ7F58A2E07B857C24624D — Competitive Landscape Review
+[ 61/100] 01KQ7FA71CF70FAFEE4B6251 — Aegis / Nova Retail Group - Renewal Discussion
+[ 62/100] 01KQ85D10E82A26A8F754FB8 — Aegis / Bridgeport Health - Compliance Review
+[ 63/100] 01KQ88B8EAEAA819C26CCBE7 — ESCALATION: Northstar Pharma - Detect Outage Impact on Compl
+[ 64/100] 01KQ8C5A044F54EE1774D53C — Aegis / Helix Data - Post-Incident Review
+[ 65/100] 01KQ8D9A06510DD623EFB1A6 — Aegis / Pinnacle Insurance - Detect Roadmap Review
+[ 66/100] 01KQ92EA85FE4C537400227D — Support Case #8811 - Blackridge Investments Custom Complianc
+[ 67/100] 01KQ94C2B8B9B4668F3D3491 — Support Case #6573 - Ridgeline Logistics Detect Data Gaps
+[ 68/100] 01KQ9772B2348F500FB09D1E — Support Case #3677 - Coastal Living Co MFA Token Failures
+[ 69/100] 01KQ9A6BE09D73A9BB5798C7 — Support Case #3615 - Nimbus Platform Custom Report Request
+[ 70/100] 01KQ9BB82FD97C9607D57E90 — Aegis / Coastal Living Co - Onboarding Kickoff
+[ 71/100] 01KQ9BCA1794C9472726FFAD — Comply v2 - Adoption Metrics Review
+[ 72/100] 01KQA0F0BE68E74D66EB4171 — Competitive Response Strategy
+[ 73/100] 01KQA1AFDC1306A000B0C7D9 — Aegis / Vanta Health Systems - Backup Strategy Workshop
+[ 74/100] 01KQA502E222E2A60330237B — Aegis / Pineridge Systems - Q1 Business Review
+[ 75/100] 01KQA7DFCE1285F52192B34B — Support Case #9856 - Silverline Brands Backup Window Exceede
+[ 76/100] 01KQAC572C34475A8791F2C3 — Protect Team - Quarterly Planning
+[ 77/100] 01KQADC32D89E2B76B698E84 — Support Case #6635 - Nova Retail Group SSO Login Failures
+[ 78/100] 01KQADF3D76E82BF8BA19AF2 — All Hands - February Wrap
+[ 79/100] 01KQAEA50436D047BC39CFC7 — Aegis / Crestline Wealth - Account Review
+[ 80/100] 01KQAFB8DBF6E1E2FDEF0B75 — Aegis / Maplewood Goods - SOC 2 Prep Review
+[ 81/100] 01KQB3B16F255B65F39597D0 — Comply v2 - Design Review
+[ 82/100] 01KQB632F1ADC378C42F2C03 — Support Case #7570 - Silverline Brands Comply v2 License Upg
+[ 83/100] 01KQB95605C6F873C6036285 — Aegis / Forge Industries - PCI DSS Compliance Review
+[ 84/100] 01KQBB7C4D4789DB2F3DA9C2 — Support Case #1750 - Vanta Health Systems SIEM Connector Iss
+[ 85/100] 01KQBBF753B44DE677670E6D — Support Case #6147 - Summit Trust Detect Alert Delays
+[ 86/100] 01KQC1267BEB344076DD7656 — Aegis / Ironclad Financial - Account Recovery Check-in
+[ 87/100] 01KQC166F678CBA584AAFF8B — Support Case #7615 - Crestline Wealth Group Policy Sync Dela
+[ 88/100] 01KQC3A2EBC501837E973B16 — Aegis / Frostbyte AI - Identity Module Setup
+[ 89/100] 01KQCA6EA8B603EBB6C9FE34 — Aegis / Ridgeline Logistics - Identity Roadmap Discussion
+[ 90/100] 01KQCF9872BF130D33B1B5EC — Comply v2 - Launch Day Checklist
+[ 91/100] 01KQD1270E98A7DFC55ADCF8 — Protect Performance - Scalability Concerns
+[ 92/100] 01KQD199788883B6F18C81E8 — Aegis / Atlas Precision - Annual Review & Renewal
+[ 93/100] 01KQD4D9DEBA2D55AC2AA9F5 — Aegis / Keystone Health - Renewal Planning
+[ 94/100] 01KQDD5172176D02DB51360A — Support Case #3286 - Vanta Health Systems API Integration Er
+[ 95/100] 01KQE110900B8A65D80AE694 — Detect Outage - Root Cause Analysis
+[ 96/100] 01KQEDB92E33CF9945A7F71B — URGENT: Cobalt Software - Aegis Detect Dashboard Down
+[ 97/100] 01KQEDE682B4A8D67C657CF1 — Support Case #3103 - Silverline Brands Detect False Positive
+[ 98/100] 01KQF9600A904ADE8605B3F0 — Detect Team - Reliability Sprint Retro
+[ 99/100] 01KQFEEFFF8E80B0DFD10880 — SOC 2 Type II - Final Review
+[100/100] 01KQFFC0F889AE8CFEE7A00D — Aegis / Blackridge Investments - Renewal Discussion
+
+Enriched: 97 new, 3 skipped (already enriched), 0 failed.
+
+Building customer alias map (1 Opus call)...

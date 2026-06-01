@@ -1,0 +1,38 @@
+# --- Core ---
+pydantic>=2.6,<3
+pydantic-settings>=2.2,<3
+python-dotenv>=1.0
+
+# --- LLM / Anthropic ---
+anthropic>=0.40
+
+# --- Agent orchestration ---
+langgraph>=0.2.40
+langchain-core>=0.3
+langchain-anthropic>=0.2
+
+# --- MCP server ---
+mcp>=1.0
+fastmcp>=0.4
+
+# --- Storage / data ---
+duckdb>=1.0
+networkx>=3.2
+pandas>=2.2
+pyarrow>=15
+
+# --- UI ---
+streamlit>=1.36
+plotly>=5.20
+
+# --- Observability (optional, no-op if env not set) ---
+langfuse>=2.40
+
+# --- Notebooks ---
+jupyterlab>=4.0
+ipykernel>=6.29
+matplotlib>=3.8
+
+# --- Dev ---
+ruff>=0.6
+pytest>=8.0
