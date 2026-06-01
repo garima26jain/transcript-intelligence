@@ -2,8 +2,6 @@
 
 > An agentic platform that turns ~100 call transcripts (support, external, internal) into stakeholder-grade insights for Sales, CS, PM, and Engineering leaders.
 
-**Take-home assignment**. Plan and architecture in `/Users/garimajain/.claude/plans/assume-yourself-as-an-dreamy-starlight.md`. This repo is the implementation.
-
 ---
 
 ## What this is (and what it isn't)
